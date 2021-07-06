@@ -2,6 +2,13 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(#11B1FB,#A5D4EE);
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin: 15px 0;
+}
 /* navigation style starts here */
 #navigation{
     background-color:purple;
@@ -25,6 +32,7 @@ body{
 #home{
     display: flex;
     margin: 5%;
+    margin-bottom: 150px;
 }
 #home .half-width{
     width:100%;
@@ -46,9 +54,63 @@ body{
     width:70%;
     margin-left: 100px;
 }
-#home .half-width .order-btn{
-    text-decoration: none;
-    background-image: linear-gradient(#11B1FB,#A5D4EE);
-    padding: 15px 20px;
+
+/* about section style starts here */
+#about{
+    display:flex;
+    margin: 5%;
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+}
+#about .half-width{
+    width:100%;
+    margin: 0 40px;
+}
+#about .half-width img{
+    width:70%;
+    margin-left: 20px;
+    position: relative;
+    top: 25px;
+}
+#about  #para{
+    margin-top: 100px;
+}
+#about  #para h1{
+    font-size:40px;
+    color: #11B1FB;
+}
+/* recipie style starts here */
+#recip{
+    margin: 5%;
+}
+#recip .recip-full{
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 50px; 
+    text-align: center;
+}
+#recip .recip-full h1{
+    color: indianred;
+}
+#recipie{
+    display: flex;
+}
+#recipie .one-third{
+    width:100%;
+    margin-left: 70px;
+    text-align: center;
+    padding-top:28px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#recipie .one-third img{
+    width: 250px;
+    height: 200px;
     border-radius: 20px;
+    
+}
+#recipie .one-third p{
+    padding: 10px;
+    text-align: justify;
 }
