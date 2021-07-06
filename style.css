@@ -7,7 +7,8 @@ body{
     background-image: linear-gradient(#11B1FB,#A5D4EE);
     padding: 15px 20px;
     border-radius: 20px;
-    margin: 15px 0;
+    position: relative;
+    top: 30px;
 }
 /* navigation style starts here */
 #navigation{
@@ -59,6 +60,7 @@ body{
     display:flex;
     background-image: url(images/Frame\ 57.jpg);
     background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
 #about .half-width{
     width:100%;
@@ -80,6 +82,7 @@ body{
 /* recipie style starts here */
 #recip{
     margin: 5%;
+    margin-bottom: 100px;
 }
 #recip .recip-full{
     width: 550px;
@@ -89,6 +92,7 @@ body{
 }
 #recip .recip-full h1{
     color: indianred;
+    font-size: 40px;
 }
 #recipie{
     display: flex;
@@ -101,42 +105,19 @@ body{
     border-radius: 25px;
     box-shadow: 10px 10px 40px gray;
 }
-
 #recipie .one-third img{
     width: 250px;
     height: 200px;
     border-radius: 20px;
-    
 }
 #recipie .one-third p{
     padding: 10px;
     text-align: justify;
 }
-/* footer style starts here */
-#myFooter {
-    margin: 0;
-    text-align: center;
-    background-color: #000;
-    color: white;
-    height: 150px;
-    padding: 25px 0;
-
-}
-#myFooter .foot1{
-    color: #11B1FB;
-
-}
-#myFooter .foot2{
-    color: #A5D4EE;
-    
-}
-#myFooter p{
-    color: #afc7d4;
-    
-}
+/* sign up style starts here */
 #sign-up{
     width: 700px;
-    margin:100px auto;
+    margin:50px auto;
 }
 #sign-up h2{
     text-align: center;
@@ -167,4 +148,22 @@ body{
 #sign-up .sign-up-border .sign-up-go a{
     text-decoration: none;
     color: white;
+}
+/* footer style starts here */
+#myFooter {
+    margin: 0;
+    text-align: center;
+    background-color: #000;
+    color: white;
+    height: 150px;
+    padding: 25px 0;
+}
+#myFooter .foot1{
+    color: #11B1FB;
+}
+#myFooter .foot2{
+    color: #A5D4EE;
+}
+#myFooter p{
+    color: #afc7d4;
 }
